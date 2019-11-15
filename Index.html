@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Prototype1</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="icon" href="./assets/m.png" type="image/x-icon">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="./css/bootstrap.min.css" rel="stylesheet" >
+    <link rel="stylesheet" href="./css/Style.css">
+    <link rel="stylesheet" href="./css/animate.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,700&amp;display=swap" rel="stylesheet">
+</head>
+<body> 
+    <!--Carousel Wrapper-->
+    <div id="carousel-example-2" class="carousel slide carousel-fade" data-ride="carousel">
+            <!--Indicators-->
+            <ol class="carousel-indicators">
+                <li data-target="#carousel-example-2" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-2" data-slide-to="1"></li>
+                <li data-target="#carousel-example-2" data-slide-to="2"></li>
+            
+            </ol>
+            <!--/.Indicators-->
+            <!--Slides-->
+            <div class="carousel-inner" role="listbox">
+            <div class="carousel-item active">
+                <div class="view">
+                <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(68).jpg"
+                    alt="First slide">
+                <div class="mask rgba-black-light"></div>
+                </div>
+                <div class="carousel-caption" id="slide1">
+                    <p id="hello" class="animated zoomIn ">Hello <span>There !</span></p>
+                    <p id="welcome" class="animated fadeInDown delay-1s ">Welcome to my website .</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <!--Mask color-->
+                <div class="view">
+                <img class="d-block w-100" src="./assets/yes2.jpg"
+                    alt="Second slide">
+                <div class="mask rgba-black-strong"></div>
+                </div>
+                <div class="carousel-caption" id="slide2">
+                    <p class="name animated fadeInUp">The Name Is </p>
+                    <p class="name animated fadeIn" id="moses" ><span id="ananta">Moses Ananta</<span></p>
+                    <p id="desc" class="animated fadeInRight">Self-motivated, hard-working college student seeking to use proven skills in leadership, communication, and programming while providing engineering support and providing exposure to opportunities in the IT sector. </p>
+                    <ul class="sci">
+                        <li><a href="https://www.facebook.com/moses.ananta" target="_blank"><i class="fa fa-facebook animated fadeIn "></i></a></li>
+                        <li><a href="https://www.linkedin.com/in/moses-ananta-72230714b/" target="_blank"><i class="fa fa-linkedin animated fadeIn"></i></a></li>
+                        <li><a href="https://www.instagram.com/moses.ananta/" target="_blank"><i class="fa fa-instagram animated fadeIn"></i></a></li>
+                     </ul>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <!--Mask color-->
+                <div class="view">
+                  
+                <img class="d-block w-100 " src="https://mdbootstrap.com/img/Photos/Slides/img%20(9).jpg"
+                    alt="Third slide">
+                <div class="mask rgba-black-slight"></div>
+                
+
+                </div>
+                
+                <div class="carousel-caption">
+                
+                <!-- Card deck -->
+                <div class="card-deck">
+
+                        <!-- Card -->
+                        <div class="card mb-4 " id="card1">
+                    
+                        <!--Card image-->
+                        <div class="view overlay">
+                            <img class="card-img-top" src="./assets/ITB.jpg" alt="Card image cap">
+                            <a href="#!">
+                            <div class="mask rgba-white-slight"></div>
+                            </a>
+                        </div>
+                    
+                        <!--Card content 1 -->
+                        <div class="card-body">
+                    
+                            <!--Title-->
+                            <h4 class="card-title font-weight-bold mb-2">ITB X'Perience</h4>
+                            <!--Text-->
+                            <p class="card-text">A Hope Of Coming To ITB</p>
+                            <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalITB">Read more</button>
+                        
+                            <!--Modal: modalRelatedContent-->
+                            <div class="modal fade right" id="modalITB" tabindex="-1" role="dialog"
+                                aria-labelledby="myModalLabel" aria-hidden="true" data-backdrop="false">
+                                <div class="modal-dialog modal-side modal-bottom-right modal-notify modal-info modal-dialog-centered" role="document">
+                                <!--Content-->
+                                <div class="modal-content">
+                                    <!--Header-->
+                                    <div class="modal-header">
+                                    <p class="heading" ><strong>ITB X'Perience</strong></p>
+                            
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span id="close" aria-hidden="true" class="white-text">&times;</span>
+                                    </button>
+                                    </div>
+                            
+                                    <!--Body-->
+                                    <div class="modal-body">
+                            
+                                    <div class="row">
+                                        <div class="col-5">
+                                        <img src="./assets/ITB.jpg"
+                                            class="img-fluid" alt="">
+                                        </div>
+                                
+                                        <div class="col-6">
+                                        <p class="article">they say look for a good <span> place to grow </span> . for me, that place is <span> ITB</span> . a place full of <span> opportunities</span>  and opportunities to make new <span> memories </span>  and memories to make a better <span> future. </span> </p>
+                                        
+                                        </div>
+                                    </div>
+                                    </div>
+                                </div>
+                                <!--/.Content-->
+                                </div>
+                            </div>
+                            <!--Modal: modalRelatedContent-->
+                    
+                        </div>
+                    
+                        </div>
+                        <!-- Card -->
+                    
+                        <!-- Card -->
+                        <div class="card mb-4  " id="card2">
+                    
+                        <!--Card image-->
+                        <div class="view overlay">
+                            <img class="card-img-top" src="./assets/ARC.jpg" alt="Card image cap">
+                            <a href="#!">
+                            <div class="mask rgba-white-slight"></div>
+                            </a>
+                        </div>
+                    
+                        <!--Card content 2 -->
+                        <div class="card-body">
+                    
+                            <!--Title-->
+                            <h4 class="card-title font-weight-bold mb-2">ARC</h4>
+                            <!--Text-->
+                            <p class="card-text">Motivations In Joining ARC</p>
+                            <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalARC">Read more</button>
+                        
+                            <!--Modal: modalRelatedContent-->
+                            <div class="modal fade right" id="modalARC" tabindex="-1" role="dialog"
+                                aria-labelledby="myModalLabel" aria-hidden="true" data-backdrop="false">
+                                <div class="modal-dialog modal-side modal-bottom-right modal-notify modal-info modal-dialog-centered" role="document">
+                                <!--Content-->
+                                <div class="modal-content">
+                                    <!--Header-->
+                                    <div class="modal-header">
+                                    <p class="heading"><strong>ARC</strong></p>
+                            
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span id="close" aria-hidden="true" class="white-text">&times;</span>
+                                    </button>
+                                    </div>
+                            
+                                    <!--Body-->
+                                    <div class="modal-body">
+                            
+                                    <div class="row">
+                                        <div class="col-5">
+                                        <img src="./assets/ARC.jpg"
+                                            class="img-fluid" alt="">
+                                        </div>
+                            
+                                        <div class="col-6">
+                                        
+                                        <p class="article">as they say, <span> talented people come from  talented community </span> and i want to be part of those talented people that's why I join <span> ARC</span>  to horned my <span> skills</span>  and experience kinds of <span> professional environment</span>  to <span> better myself </span>  and start making an <span> influence </span> to others</p>
+                                        
+                                        </div>
+                                    </div>
+                                    </div>
+                                </div>
+                                <!--/.Content-->
+                                </div>
+                            </div>
+                            <!--Modal: modalRelatedContent-->
+                        </div>
+                    
+                        </div>
+                        <!-- Card -->
+                    
+                        <!-- Card -->
+                        <div class="card mb-4  " id="card3">
+                    
+                        <!--Card image-->
+                        <div class="view overlay">
+                            <img class="card-img-top" src="./assets/code.png" alt="Card image cap">
+                            <a href="#!">
+                            <div class="mask rgba-white-slight"></div>
+                            </a>
+                        </div>
+                    
+                        <!--Card content 3 -->
+                        <div class="card-body">
+                    
+                            <!--Title-->
+                            <h4 class="card-title font-weight-bold mb-2">About This Website</h4>
+                            <!--Text-->
+                            <p class="card-text">Reports, Opinions , And Future Planning </p>
+                            <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalNotes">Read more</button>
+                        
+                            <!--Modal: modalRelatedContent-->
+                            <div class="modal fade right" id="modalNotes" tabindex="-1" role="dialog"
+                                aria-labelledby="myModalLabel" aria-hidden="true" data-backdrop="false">
+                                <div class="modal-dialog modal-side modal-bottom-right modal-notify modal-info modal-lg" role="document">
+                                <!--Content-->
+                                <div class="modal-content">
+                                    <!--Header-->
+                                    <div class="modal-header">
+                                    <p class="heading">About: This Website</p>
+                            
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span id="close" aria-hidden="true" class="white-text">&times;</span>
+                                    </button>
+                                    </div>
+                            
+                                    <!--Body-->
+                                    <div class="modal-body">
+                            
+                                    <div class="row">
+                            
+                                        <div class="col-7">
+                                        <p class="article"><strong>A Slight Notes</strong></p>
+                                        <p class="notes article">Well This Is <span>My First Website</span> and Also <span> My First Time Using <span id="boot">Bootstrap</span></span> so many improvements will be made in the future and suggestions and opinions from colleagues will be very helpful in building the skills needed in the future</p>
+                                        <p></p>
+                                        <p class="article"><strong>What I've Tried and Lesson Learned Throughout Making This Website and opinions about it</strong></p>
+                                        <ul>
+                                            <li class="article">many tools for prototyping your website such as (what I've tried) <span> Invision Studio, Justinmind</span>, etc cannot export your design to a full HTML files (at least not freely). the <span>best way</span> to make a website is by <span> it from scratch.</span></li>
+                                            <li class="article">making a website from scratch can be a daunting task, so it would be better if not faster to make use of existing <span>libraries and frameworks </span> to maximize production. I've explored several libraries and interested in <span>Bootstrap</span> as a huge time saver to making components such as buttons and etc and <span>Animate.css</span> to add a little bit of animation without having to do a lot of work. </li>
+                                            <li class="article">designing with CSS can be a pain in the back. because even if you had live server in vs code, still it would be very hard to know why something doesn't work when I code this way. so it's nice to have a <span>CSS Debugger </span> like <span>Chrome DevTools</span> that lets you debug your CSS and design your web realtime. just dont forget to save the changes in the actual css file</li>
+                                            <li class="article"> <span>hosting</span> your website can be bothersome. you either need a server to do that or be hosted by someone else.some of those hosting sites are free such as <span>GitHub pages and Netlify</span> and that's what i'm using.</li>
+                                        </ul>
+                                        <p></p>
+                                        
+                                        <p class="article"><strong>What I've Done To This Website (Bonus* ^^)</strong></p>
+                                        <ul>
+                                            <li class="article"> Carrousel / Slide</li>
+                                            <li class="article">Added Card Deck</li>
+                                            <li class="article">Added several Buttons</li>
+                                            <li class="article">Added Modals To That Buttons</li>
+                                            <li class="article">Added Tittle Icon</li>
+                                            <li class="article">Added animations to make things cooler</li>
+                                            <li class="article">Opinions ITB Experience and ARC </li>
+                                            <li class="article">Links To My Social Sites</li>
+                                            <li class="article">Several TypoGraphy</li>
+                                            <li class="article">Published it on Github Pages(Because it's free)</li>
+                                            <li class="article">Making It More Secure Via HTTPS (though it's avaiable via GitHub Pages)</li>
+                                        </ul>
+                                        <p class="article"><strong>Plans For Future And Improvements</strong></p>
+                                        <ul>    
+                                            <li class="article">Making It Responsive</li>
+                                            <li class="article">Experimenting With More libraries and Framework Such As Vue ,Angular,and much More</li>       
+                                            <li class="article">Exploring Google's Web Development Framework , Flutter</li>
+                                            <li class="article">Learn To Make Apps That Based From HTML,CSS,and Javascript Via Electron,Ionic,Etc(Fun Fact: VS Code Is Made From Electron which use web Technologies such as HTMl,Javascript,etc)</li>
+                                            <li class="article">Make A New Portfolio Website ^^ and Gather Experience Through Projects</li>
+                                            <li class="article">Use My Picture Own More Often hehe (Well Besides my "own" profile picture) Credits To MDBootstrap for their Great Tutorial and Images</li>
+                                        </ul>
+                                        </div>
+                                    </div>
+                                    </div>
+                                </div>
+                                <!--/.Content-->
+                                </div>
+                            </div>
+                            <!--Modal: modalRelatedContent-->
+                        </div>
+                    
+                        </div>
+                        <!-- Card -->
+                    
+                </div>
+                <!-- Card deck -->  
+                </div>
+                
+            </div>
+            </div>
+            <!--/.Slides-->
+            <!--Controls-->
+            <a class="carousel-control-prev" href="#carousel-example-2" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carousel-example-2" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+            </a>
+            <!--/.Controls-->
+        </div>
+        <!--/.Carousel Wrapper-->
+        
+
+    <section>
+        
+    </section>    
+    
+    
+
+    <script src="./js/jquery-3.4.1.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script>$('.carousel').carousel({
+        interval: 600000
+      })</script>
+</body>
+</html>
